@@ -8,5 +8,5 @@ obj-$(CONFIG_SENSORS_SSP)		+= ssp_dev.o ssp_spi.o ssp_data.o ssp_sysfs.o\
 obj-$(CONFIG_SENSORS_SYSFS)		+= sensors_core.o
 obj-$(CONFIG_IIO)			+= ssp_iio_ring.o ssp_iio_trigger.o
 
-obj-$(CONFIG_SENSORS_SSP_MPU6500)	+= factory/accel_mpu6500.o factory/gyro_mpu6500.o
+obj-$(CONFIG_SENSORS_SSP_MPU6500)	+= accel_mpu6500.o gyro_mpu6500.o
 obj-$(CONFIG_SENSORS_SSP_SENSORHUB)	+= ssp_sensorhub.o

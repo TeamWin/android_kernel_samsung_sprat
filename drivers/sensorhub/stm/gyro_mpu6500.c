@@ -13,7 +13,7 @@
  *
  */
 #include <linux/kernel.h>
-#include "../ssp.h"
+#include "ssp.h"
 
 #define CALIBRATION_FILE_PATH	"/efs/gyro_cal_data"
 

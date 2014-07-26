@@ -12,7 +12,7 @@
  *  GNU General Public License for more details.
  *
  */
-#include "../ssp.h"
+#include "ssp.h"
 
 #define CALIBRATION_FILE_PATH	"/efs/calibration_data"
 
